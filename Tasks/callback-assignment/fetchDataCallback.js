@@ -13,7 +13,7 @@ function fetchDataWithCallback(callback) {
         } catch (err) {
             console.log("Error: " + err.message);
         }
-    }, 2000); 
+    }, 2000);git
 }
 
 fetchDataWithCallback(function(message) {
